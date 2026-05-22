@@ -21,10 +21,6 @@ class Student {
     }
 
     public static Student highestAverageGrade(ArrayList<Student> students) {
-        /*
-        взять студента  - взять его оценки - найти среднее этих оценок -
-        сохранить и сравнить со следующим, если больше подставляем, если меньше то оставлялем
-         */
         int tempHighestGrade = 0;
         int indexOfHighest = -1;
         for (int i = 0; i < students.size() - 1; i++) {
