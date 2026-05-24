@@ -17,6 +17,7 @@ public class Practice {
         ItemPriceComparator itempricecomparator = new ItemPriceComparator();
         ItemPopularityComparator itempopularitycomparator = new ItemPopularityComparator();
         ItemStringInSensitiveNameComparator itemstringinsensitivenamecomparator = new ItemStringInSensitiveNameComparator();
+        ItemPriceComparator itemPriceComparator = new ItemPriceComparator();
 
         items.sort(itempricecomparator);
 
@@ -31,5 +32,8 @@ public class Practice {
         System.out.println("После сортировки алфавитом");
         System.out.println(items);
 
+        items.sort(itemPriceComparator);
+        System.out.println("После сортировки по ценам");
+        System.out.println(items);
     }
 }

@@ -27,7 +27,7 @@ public class MonthData {
         return maxStepsCount;
     }
 
-    public int averageStepsForMonth() {
+    public int  averageStepsForMonth() {
         int sumSteps = 0;
         for(int day : days) {
             sumSteps += day;

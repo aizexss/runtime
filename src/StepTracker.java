@@ -2,6 +2,10 @@ package src;
 
 import java.util.Scanner;
 
+/*
+https://github.com/practicetasks/java-step-tracker
+ */
+
 public class StepTracker {
     int goalByStepsPerDay = 10000;
     Scanner scanner;
