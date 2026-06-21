@@ -1,6 +1,6 @@
-package five.task1;
+package five_all_tasks.task1;
 
-public class FromOverduedStatusMover {
+public class FromBorrowedStatusMover {
     protected void moveToStatus(Book book, Status requestStatus) {
         switch (requestStatus) {
             case AVAILABLE:
@@ -8,9 +8,12 @@ public class FromOverduedStatusMover {
                 break;
             case ARCHIVED:
                 book.setStatus(Status.ARCHIVED);
-                 break;
+                break;
+            case OVERDUED:
+                book.setStatus(Status.OVERDUED);
+                break;
             default:
-                System.out.println("Перевод книги из статуса 'OVERDUED' в " + requestStatus + " невозможен.");
+                System.out.println("Не получилось изменить статус");
         }
     }
 }

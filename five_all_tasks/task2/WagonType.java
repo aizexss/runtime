@@ -1,4 +1,4 @@
-package five.task2;
+package five_all_tasks.task2;
 
 public class WagonType extends VehicleTypeByBodyTypes {
     @Override

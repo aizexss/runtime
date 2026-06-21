@@ -1,4 +1,4 @@
-package five.task1;
+package five_all_tasks.task1;
 
 public class FromArchivedStatusMover extends BookMover {
     protected void movetoStatus(Book book, Status requestStatus) {
