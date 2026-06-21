@@ -2,6 +2,8 @@ package five_all_tasks.task3;
 
 import java.util.Scanner;
 
+// https://github.com/practicetasks/java-homeworks/tree/main/polymorphism%20(lesson%206)/task%201
+
 public class Main {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
